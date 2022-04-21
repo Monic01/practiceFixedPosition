@@ -1,0 +1,161 @@
+@import url("https://fonts.googleapis.com/css2?family=Ms+Madi&display=swap");
+/* USE TO H1 -- font-family: 'Ms Madi', cursive;*/
+@import url("https://fonts.googleapis.com/css2?family=Work+Sans:wght@200&display=swap");
+/* USE TO ARTICLE font-family: 'Work Sans', sans-serif;*/
+body,
+ul,
+li,
+h1,
+h2 {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background-color: rgb(247, 253, 253);
+}
+
+ul {
+  list-style: none;
+}
+
+a {
+  text-decoration: none;
+  color: black;
+}
+
+.top {
+  position: absolute;
+  top: 0;
+}
+
+nav {
+  position: fixed;
+  top: 0%;
+
+  width: 100%;
+
+  box-shadow: 1px 2px 2px rgb(73, 73, 73);
+  background-color: rgb(225, 226, 228);
+}
+
+nav > .container {
+  display: flex;
+  justify-content: space-between;
+
+  width: 90%;
+  height: 5rem;
+  align-items: center;
+
+  margin: 0 auto;
+}
+
+nav > .container h1 {
+  margin-left: 20px;
+
+  font-family: "Ms Madi", cursive;
+  font-size: 2em;
+}
+
+nav > .container ul {
+  display: flex;
+
+  font-family: "Work Sans", sans-serif;
+  font-weight: bold;
+}
+
+nav > .container ul li a {
+  padding: 0 20px;
+}
+
+.topbutton {
+  width: 4rem;
+  height: 4rem;
+
+  position: fixed;
+  bottom: 5%;
+  right: 5%;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-weight: bolder;
+
+  box-shadow: 1px 2px 2px rgb(73, 73, 73);
+
+  border-radius: 50%;
+  background-color: rgb(189, 190, 190);
+}
+
+.topbutton > a {
+  color: white;
+  text-shadow: 1px 2px 2px rgb(73, 73, 73);
+}
+
+aside > .container {
+  text-align: center;
+
+  height: 92vh;
+  width: 7rem;
+
+  padding-top: 20px;
+
+  position: fixed;
+  left: 0%;
+
+  background-color: gray;
+
+  font-family: "Work Sans", sans-serif;
+  font-weight: bold;
+}
+
+aside > .container ul {
+  display: flex;
+  flex-direction: column;
+}
+
+aside > .container ul li {
+  padding: 10px 0;
+}
+
+section {
+  margin: 5rem 0 0 7rem;
+  padding-bottom: 20px;
+  background-color: blanchedalmond;
+}
+
+section > article {
+  height: 40vh;
+  width: 90%;
+
+  margin: 0 auto;
+
+  padding-left: 20px;
+
+  box-shadow: 1px 2px 2px gray;
+  background-color: bisque;
+}
+
+section > article > h3 {
+  padding-top: 20px;
+}
+
+section > article > p {
+  width: 100%;
+}
+
+footer > .container {
+  height: 40px;
+  width: 100%;
+  position: absolute;
+
+  display: flex;
+  align-items: center;
+  background-color: rgb(70, 69, 69);
+  color: white;
+}
+
+footer > .container > .info {
+  margin-left: 20px;
+  font-size: 0.7rem;
+}
